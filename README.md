@@ -90,3 +90,15 @@ group_node = NodegraphAPI.CreateNode(group_name, NodegraphAPI.GetRootNode())
 # and place them inside the newly created group
 nodes = KatanaFile.Paste(resulting_xml, group_node)
 ```
+
+----
+## AMG Setup
+```
+git remote add upstream https://github.com/ababak/maya2katana.git
+git remote add production //bstorage/rep/set/deployment/maya2katana.git
+```
+
+Pull upstream updates:
+```
+git pull upstream master
+```
